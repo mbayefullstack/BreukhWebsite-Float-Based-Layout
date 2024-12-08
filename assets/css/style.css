@@ -46,3 +46,121 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+========================================
+Body
+========================================
+*/
+
+body {
+	font-size: 16px;
+	color: #fff;
+}
+
+
+
+/*
+========================================
+Header
+========================================
+*/
+
+header {
+	width: 100vw;
+	background-color: #1F1F29;
+	text-align: center;
+}
+
+header > ul  {
+	float: left;
+	width: 50%;
+	margin: 20px 0	;
+}
+
+header > ul + ul {
+	float: left;
+	width: 50%;
+}
+
+header  ul li {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+header > section::before, header section::after {
+	content: "";
+	display: table;
+}
+
+header section::after {
+	clear: both;
+}
+
+header section{
+	clear: both;
+	background: #15151D;
+	padding: 3%;
+	width: 100vw;
+	height: 3vh;
+	border-bottom: #da273b 3px solid;
+}
+
+header section h1{
+	float: left;
+	width: 30.333%;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+header section form{
+	float: left;
+	width: 38.333%;
+}
+
+header section ul{
+	float: left;
+	width: 15.333%;
+}
+
+select , input, button {
+	width: 5vw;
+	height: 5vh;
+
+}
+select{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+input {
+	width: 500px;
+	border: none;
+}
+
+button {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #da273b;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+header nav {
+	background: #fff;
+	color: #15151D;
+	padding: 15px 0 ;
+	height: 30px;
+	border-bottom: #15151D solid 2px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	background: #da273b;
+	color: #fff;
+}

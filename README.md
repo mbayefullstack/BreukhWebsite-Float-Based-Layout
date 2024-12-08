@@ -1,4 +1,4 @@
-Breukh Website - Float-Based Layout
+Breukh Website - Float-Based Layout.
 This project is a static website designed to replicate the visual design of "Breukh," an online store, using only the CSS float property for layout. The project will also incorporate responsive design to ensure usability on different devices.
 
 Project Objectives
@@ -23,11 +23,13 @@ Here’s the directory structure for the project:
 │       └── style.css   # CSS file for styling the website.
 ├── README.md        # Documentation for the project (this file).
 
+![alt text](image.png)
 
-Installation
+
+Installation.
 Clone the repository or download the files.
 Navigate to the project directory and open index.html in your browser.
-Development Notes
+Development Notes.
 The layout is achieved using the CSS float property for all components and sections.
 Responsive Design: Media queries will be used to adjust the layout for various devices.
 No JavaScript frameworks, libraries, or additional CSS tools are used—this is a pure HTML/CSS project.
